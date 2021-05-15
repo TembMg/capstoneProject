@@ -26,7 +26,6 @@
 
 <p align="center">
   <a href="#dart-about">About</a> &#xa0; | &#xa0; 
-  <a href="#sparkles-features">Features</a> &#xa0; | &#xa0;
   <a href="#rocket-technologies">Technologies</a> &#xa0; | &#xa0;
   <a href="#white_check_mark-requirements">Requirements</a> &#xa0; | &#xa0;
   <a href="#checkered_flag-starting">Sections</a> &#xa0; | &#xa0;
@@ -40,12 +39,13 @@
 
 Describe your project:
 This is an online store. The store has items for both female and male alike
-
-## :sparkles: Features ##
-
-:heavy_check_mark: Feature 1;\
-:heavy_check_mark: Feature 2;\
-:heavy_check_mark: Feature 3;
+<p align="center">
+  <img src= "./projects/homePage.png">
+  click on the store in the navbar to go to the actual store. Alternatively you can scroll down to check our next store openings
+  <img src= "./projects/store.png">
+  <img src= "./projects/about.png">
+  You can also checkout our about page
+</p>
 
 ## :rocket: Technologies ##
 
@@ -71,9 +71,6 @@ Once you have cloned, you will immediately have access to the files. Click index
 ## :memo: License ##
 
 This project is under license from MIT. For more details, see the [LICENSE](LICENSE.md) file.
-
-
-Made with :heart: by <a href="https://github.com/{{YOUR_GITHUB_USERNAME}}" target="_blank">{{Thembi }}</a>
 
 &#xa0;
 
