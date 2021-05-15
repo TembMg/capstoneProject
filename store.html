@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Urban Eden | Store</title>
+    <meta name="description" content="This is the description">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="store.js" async></script>
+</head>
+
+<body>
+    <header class="main-header">
+        <nav class="main-nav nav">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="store.html">STORE</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+            </ul>
+        </nav>
+        <h1 class="band-name band-name-large">Urban Eden</h1>
+    </header>
+    <section class="container content-section">
+        <h2 class="section-header">Ladies Items</h2>
+        <div class="shop-items">
+            <div class="shop-item">
+                <span class="shop-item-title">Ladies T-shirt</span>
+                <img class="shop-item-image" src="./images1/Images 2/Women's Items/Women's T-shirt (6).jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">R49.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Ladies Shoes</span>
+                <img class="shop-item-image" src="./images1/Images 2/Women's Items/Women's shoes (7).jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">R149.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Ladies Bag</span>
+                <img class="shop-item-image" src="./images1/Images 2/Women's Items/Bags (11).jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">R959.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Women's T-shirt</span>
+                <img class="shop-item-image" src="./images1/Images 2/Women's Items/Women's T-shirt.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">R59.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container content-section">
+        <h2 class="section-header">Men's items</h2>
+        <div class="shop-items">
+            <div class="shop-item">
+                <span class="shop-item-title">Shoes</span>
+                <img class="shop-item-image" src="./images1/Images 2/Men's items/Men's shoes (9).jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">R1999.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">T-shirt</span>
+                <img class="shop-item-image" src="./images1/Images 2/Men's items/Men's T-shirt (7).jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">R649.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container content-section">
+        <h2 class="section-header">CART</h2>
+        <div class="cart-row">
+            <span class="cart-item cart-header cart-column">ITEM</span>
+            <span class="cart-price cart-header cart-column">PRICE</span>
+            <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+        </div>
+        <div class="cart-items">
+        </div>
+        <div class="cart-total">
+            <strong class="cart-total-title">Total</strong>
+            <span class="cart-total-price">R0</span>
+        </div>
+        <Strong>Add 20% discount</Strong> <input type="checkbox" id="checkbox" onclick="checkedBox()"><br>
+        <Strong> <h1>Check for Delivery(Extra R50) or in-store collection</h1></Strong><br>
+        <Strong>Delivery</Strong> <input type="checkbox" id="checkbox" onclick="delivery()"><br>
+        <Strong>In-store collection</Strong> <input type="checkbox" id="checkbox" onclick="checkedBox()">
+
+        <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+    </section>
+    <footer class="main-footer">
+        <div class="container main-footer-container">
+            <h3 class="band-name">Urban Eden</h3>
+            <ul class="nav footer-nav">
+                <li>
+                    <a href="https://www.youtube.com" target="_blank">
+                        <img src="Images/YouTube Logo.png">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.spotify.com" target="_blank">
+                        <img src="Images/Spotify Logo.png">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.facebook.com" target="_blank">
+                        <img src="Images/Facebook Logo.png">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+</html>
